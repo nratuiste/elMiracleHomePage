@@ -1,0 +1,109 @@
+/*import google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+
+* {
+	font-family: 'Playball', cursive;
+	color: #222222;
+}
+
+body {
+	background-color: #ecd6c0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+p {
+	text-indent: 50px;
+	font-size: 27px;
+}
+
+.jumbotron {
+	background-image: url(./images/jumbotron.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	background-attachment: fixed;
+	text-shadow: 2px 2px white;
+
+}
+
+
+#firstHeader {
+	margin-top: 150px;
+	margin-bottom: 150px;
+	opacity: 0;
+}
+
+#semiHeader {
+	margin-bottom: 100px;
+	opacity: 0;
+}
+
+#topBreaker {
+	margin-top: 350px;
+}
+
+#divider {
+	width: 45%;
+	border-color: rgb(191, 151, 128);
+}
+
+#bottomBreaker {
+	margin-bottom: 350px;
+}
+
+#dainty {
+	background-image: url(./images/jumbotron5.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#spontaneous {
+	background-image: url(./images/jumbotron2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#homemade {
+	background-image: url(./images/jumbotron3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#howMade {
+	background-image: url(./images/jumbotron4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.welcome {
+	margin-top: 300px;
+	font-size: 70px;
+}
+
+.card {
+	background-color: rgba(191, 151, 128, 0.5);
+}
+
+.navbar {
+	background-color: #a68069;
+}
+
+footer {
+	background-color: #a68069;
+}
+
+#footer {
+	font-size: 10px;
+}
